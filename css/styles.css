@@ -1,0 +1,67 @@
+/* 1. General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Container for Centering Form */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Position Property */
+    z-index: 1; /* z-index Property */
+}
+
+/* 3. Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 4. Input Fields */
+input[type="text"], 
+input[type="date"], 
+input[type="tel"], 
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block; /* Inline Block Property */
+}
+
+/* 5. Button Styling */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px; /* Max Width Property */
+    display: block;
+    margin: 10px auto; /* Margin Property */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 6. Overflow Example */
+.overflow-box {
+    width: 100%;
+    max-height: 100px;
+    overflow: auto; /* Overflow Property */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
